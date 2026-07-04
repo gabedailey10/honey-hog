@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 /private/tmp/claude-501/-Users-gabedailey-Desktop-website-honey-hog/1ce8f2ff-cb23-447b-81dd-b55166611e1f/scratchpad/make_pdf.py restaurant-menu.pdf \"The Honey Hog - Restaurant Menu \\(placeholder\\)\")",
+      "Bash(python3 /private/tmp/claude-501/-Users-gabedailey-Desktop-website-honey-hog/1ce8f2ff-cb23-447b-81dd-b55166611e1f/scratchpad/make_pdf.py bar-menu.pdf \"The Honey Hog - Bar Menu \\(placeholder\\)\")",
+      "Bash(rm -f public/file.svg public/globe.svg public/next.svg public/vercel.svg public/window.svg)",
+      "Bash(npx eslint *)",
+      "Bash(npm run *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(curl -sf http://localhost:3000)",
+      "Bash(break)"
+    ]
+  }
+}
