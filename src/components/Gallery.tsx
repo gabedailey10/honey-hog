@@ -1,4 +1,4 @@
-import PlaceholderImage from "./PlaceholderImage";
+import Image from "next/image";
 import { galleryImages } from "@/lib/site-data";
 
 export default function Gallery() {
@@ -15,12 +15,19 @@ export default function Gallery() {
         </div>
 
         <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
-          {galleryImages.map((img, i) => (
-            <PlaceholderImage
+          {galleryImages.map((img) => (
+            <div
               key={img.id}
-              index={i}
-              className="aspect-square w-full rounded-lg"
-            />
+              className="relative aspect-square w-full overflow-hidden rounded-lg"
+            >
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                sizes="(min-width: 768px) 25vw, (min-width: 640px) 33vw, 50vw"
+                className="object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
           ))}
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { Gift } from "lucide-react";
-import PlaceholderImage from "./PlaceholderImage";
+import Image from "next/image";
 
 export default function GiftCards() {
   return (
@@ -25,11 +25,15 @@ export default function GiftCards() {
           </a>
         </div>
 
-        <PlaceholderImage
-          label="Gift Card"
-          index={1}
-          className="aspect-[16/10] w-full rounded-2xl shadow-lg"
-        />
+        <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl shadow-lg">
+          <Image
+            src="/images/honey-hog/food1.jpg"
+            alt="BBQ dish at The Honey Hog"
+            fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            className="object-cover"
+          />
+        </div>
       </div>
     </section>
   );

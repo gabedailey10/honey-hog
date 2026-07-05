@@ -34,10 +34,25 @@ export const menus = [
   { label: "Full Bar Menu", href: "/pdf/bar-menu.pdf" },
 ];
 
-export const galleryImages = Array.from({ length: 12 }, (_, i) => ({
-  id: i + 1,
-  alt: `The Honey Hog dish ${i + 1}`,
-}));
+export const galleryImages = [
+  { id: 1, src: "/images/honey-hog/food2.jpg", alt: "Smoked BBQ plate at The Honey Hog" },
+  { id: 2, src: "/images/honey-hog/honey-hog-outside1.jpeg", alt: "The Honey Hog restaurant exterior" },
+  { id: 3, src: "/images/honey-hog/pig2.jpg", alt: "Farm-raised hogs at The Honey Hog farm" },
+  { id: 4, src: "/images/honey-hog/food3.jpg", alt: "BBQ dish at The Honey Hog" },
+  { id: 5, src: "/images/honey-hog/craig.jpg", alt: "The Honey Hog team at the smoker" },
+  { id: 6, src: "/images/honey-hog/food4.jpg", alt: "Cheese curds and BBQ fixings" },
+  { id: 7, src: "/images/honey-hog/honey-hog-outside3.jpeg", alt: "The Honey Hog patio and building" },
+  { id: 8, src: "/images/honey-hog/pig7.jpg", alt: "Hog on The Honey Hog farm" },
+  { id: 9, src: "/images/honey-hog/food5.jpg", alt: "Fresh BBQ dish at The Honey Hog" },
+  { id: 10, src: "/images/honey-hog/tyler2.jpg", alt: "The Honey Hog crew" },
+  { id: 11, src: "/images/honey-hog/honey-hog-outside5.jpeg", alt: "The Honey Hog exterior at dusk" },
+  { id: 12, src: "/images/honey-hog/food6.jpg", alt: "BBQ platter at The Honey Hog" },
+  { id: 13, src: "/images/honey-hog/pig5.jpg", alt: "Farm-raised hog at The Honey Hog farm" },
+  { id: 14, src: "/images/honey-hog/honey-hog-outside-4.jpeg", alt: "The Honey Hog restaurant front" },
+  { id: 15, src: "/images/honey-hog/honey-hog-outside-6.jpeg", alt: "The Honey Hog building exterior" },
+  { id: 16, src: "/images/honey-hog/honey-hog-outside-7.jpeg", alt: "The Honey Hog exterior view" },
+  { id: 17, src: "/images/honey-hog/honey-hog-outside-8.jpg", alt: "The Honey Hog patio seating" },
+];
 
 export const testimonials = [
   {

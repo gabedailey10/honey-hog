@@ -1,15 +1,19 @@
-import PlaceholderImage from "./PlaceholderImage";
+import Image from "next/image";
 import { siteInfo } from "@/lib/site-data";
 
 export default function About() {
   return (
     <section id="about" className="bg-cream py-20">
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 lg:grid-cols-2">
-        <PlaceholderImage
-          label="The Honey Hog"
-          index={0}
-          className="aspect-[4/3] w-full rounded-2xl shadow-lg"
-        />
+        <div className="relative aspect-square w-full overflow-hidden rounded-2xl shadow-lg">
+          <Image
+            src="/images/honey-hog/pig1.jpg"
+            alt="Farm-raised hog at The Honey Hog farm"
+            fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            className="object-cover"
+          />
+        </div>
 
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brick">

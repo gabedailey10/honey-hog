@@ -17,7 +17,11 @@
       "Bash(python3 -c \"from PIL import Image; print\\('PIL ok'\\)\")",
       "Bash(python3 -c ' *)",
       "Bash(mkdir -p /Users/gabedailey/Desktop/website/honey-hog/public/images)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Read(//private/tmp/**)",
+      "Bash(node -e \"console.log\\(require.resolve\\('playwright'\\)\\)\")",
+      "Bash(npx --no-install playwright --version)",
+      "Bash(find / -maxdepth 6 -iname \"*playwright*\" -type d)"
     ],
     "additionalDirectories": [
       "/Users/gabedailey/Desktop/website/honey-hog/public"

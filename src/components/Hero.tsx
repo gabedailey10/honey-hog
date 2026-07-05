@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { siteInfo } from "@/lib/site-data";
 
 export default function Hero() {
@@ -6,8 +7,20 @@ export default function Hero() {
       id="home"
       className="relative flex min-h-[85vh] items-center justify-center overflow-hidden bg-charcoal text-cream"
     >
+      <Image
+        src="/images/honey-hog/honey-hog-outside-2.jpeg"
+        alt="The Honey Hog restaurant"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover"
+      />
       <div
-        className="absolute inset-0 bg-gradient-to-br from-charcoal via-brick/40 to-honey/30"
+        className="absolute inset-0 bg-charcoal/60"
+        aria-hidden
+      />
+      <div
+        className="absolute inset-0 bg-gradient-to-br from-charcoal/90 via-brick/40 to-honey/30"
         aria-hidden
       />
       <div
