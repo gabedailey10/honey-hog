@@ -5,9 +5,9 @@ export const siteInfo = {
     "Whether you're in the mood for mouthwatering steaks, juicy burgers, or a delicious basket of cheese curds we've got you covered!",
   about:
     "The Honey Hog is a locally owned restaurant & bar located in Morganton, NC. We are farmer owned and operated, so the best menu starts with community driven food — locally sourced whenever possible.",
-  address: "3221 NC-126, Morganton, NC 28655-6016",
-  phone: "(828) 391-1210",
-  phoneHref: "tel:+18283911210",
+  address: "300 Carbon City Rd Morganton. NC 28655",
+  phone: "(828) 334-3635",
+  phoneHref: "tel:+18283343635",
 };
 
 export const navLinks = [
