@@ -24,8 +24,8 @@ const icons = { Facebook: FacebookIcon, Instagram: InstagramIcon };
 export default function Footer() {
   return (
     <footer className="bg-[#150f0a] py-10 text-cream/70">
-      <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 text-center sm:flex-row sm:justify-between sm:text-left">
-        <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-start sm:text-left">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 text-center sm:grid sm:grid-cols-3 sm:items-center sm:text-left">
+        <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-start sm:justify-self-start sm:text-left">
           <Image
             src="/images/logo.png"
             alt={`${siteInfo.name} logo`}
@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 sm:justify-self-center">
           {socialLinks.map((s) => {
             const Icon = icons[s.label as keyof typeof icons];
             return (
@@ -60,7 +60,7 @@ export default function Footer() {
           })}
         </div>
 
-        <p className="text-xs">
+        <p className="text-xs sm:justify-self-end">
           &copy; {new Date().getFullYear()} {siteInfo.name}. All rights reserved.
         </p>
       </div>
