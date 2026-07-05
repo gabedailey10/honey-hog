@@ -52,7 +52,7 @@ export default function HoursLocation() {
           </div>
 
           <a
-            href="https://maps.google.com/?q=3221+NC-126,+Morganton,+NC+28655"
+            href="https://www.google.com/maps/place/300+Carbon+City+Rd,+Morganton,+NC+28655"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-block rounded-full bg-honey px-7 py-3 text-sm font-semibold text-charcoal transition-colors hover:bg-honey-light"
