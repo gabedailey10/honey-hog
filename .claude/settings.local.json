@@ -9,7 +9,18 @@
       "Skill(run)",
       "Skill(run:*)",
       "Bash(curl -sf http://localhost:3000)",
-      "Bash(break)"
+      "Bash(break)",
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-gabedailey-Desktop-website-honey-hog/04df320e-4266-45e8-b58b-f07e60f0fc47/scratchpad/logo)",
+      "Bash(sips -s format png public/pdf/honey-hog-logo.pdf --out /private/tmp/claude-501/-Users-gabedailey-Desktop-website-honey-hog/04df320e-4266-45e8-b58b-f07e60f0fc47/scratchpad/logo/logo-test.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight /private/tmp/claude-501/-Users-gabedailey-Desktop-website-honey-hog/04df320e-4266-45e8-b58b-f07e60f0fc47/scratchpad/logo/logo-test.png)",
+      "Bash(python3 -c \"import fitz\")",
+      "Bash(python3 -c \"from PIL import Image; print\\('PIL ok'\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(mkdir -p /Users/gabedailey/Desktop/website/honey-hog/public/images)",
+      "Bash(npx tsc *)"
+    ],
+    "additionalDirectories": [
+      "/Users/gabedailey/Desktop/website/honey-hog/public"
     ]
   }
 }

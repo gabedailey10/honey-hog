@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { siteInfo, socialLinks } from "@/lib/site-data";
 
 function FacebookIcon(props: React.SVGProps<SVGSVGElement>) {
@@ -24,12 +25,21 @@ export default function Footer() {
   return (
     <footer className="bg-[#150f0a] py-10 text-cream/70">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 text-center sm:flex-row sm:justify-between sm:text-left">
-        <div>
-          <p className="font-display text-lg font-bold text-honey-light">
-            {siteInfo.name}
-          </p>
-          <p className="mt-1 text-sm">{siteInfo.address}</p>
-          <p className="text-sm">{siteInfo.phone}</p>
+        <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-start sm:text-left">
+          <Image
+            src="/images/logo.png"
+            alt={`${siteInfo.name} logo`}
+            width={40}
+            height={40}
+            className="h-10 w-10 rounded-full"
+          />
+          <div>
+            <p className="font-display text-lg font-bold text-honey-light">
+              {siteInfo.name}
+            </p>
+            <p className="mt-1 text-sm">{siteInfo.address}</p>
+            <p className="text-sm">{siteInfo.phone}</p>
+          </div>
         </div>
 
         <div className="flex items-center gap-4">

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Menu, X, Phone } from "lucide-react";
 import { navLinks, siteInfo } from "@/lib/site-data";
 
@@ -10,8 +11,18 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-charcoal text-cream shadow-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
-        <a href="#home" className="font-display text-xl font-bold tracking-wide text-honey-light sm:text-2xl">
-          {siteInfo.name}
+        <a href="#home" className="flex items-center gap-3">
+          <Image
+            src="/images/logo.png"
+            alt={`${siteInfo.name} logo`}
+            width={44}
+            height={44}
+            className="h-10 w-10 rounded-full sm:h-11 sm:w-11"
+            priority
+          />
+          <span className="font-display text-xl font-bold tracking-wide text-honey-light sm:text-2xl">
+            {siteInfo.name}
+          </span>
         </a>
 
         <nav className="hidden items-center gap-7 lg:flex">
