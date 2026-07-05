@@ -9,7 +9,7 @@ export default function Menu() {
           Menu
         </p>
         <h2 className="mt-3 font-display text-3xl font-bold text-charcoal sm:text-4xl">
-          Mouthwatering Steaks, Juicy Burgers &amp; Cheese Curds
+          Slow-Smoked, Whole Hog BBQ
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-base text-foreground/70">
           Take a look at what we&apos;re serving up. Menus are updated seasonally to

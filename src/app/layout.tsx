@@ -16,7 +16,7 @@ const body = Inter({
 export const metadata: Metadata = {
   title: "The Honey Hog | Morganton, NC",
   description:
-    "The Honey Hog is a locally owned, farmer operated restaurant & bar in Morganton, NC serving mouthwatering steaks, juicy burgers, and cheese curds.",
+    "The Honey Hog is a locally owned, farmer operated BBQ restaurant & bar in Morganton, NC serving slow-smoked, whole hog barbecue.",
 };
 
 export default function RootLayout({

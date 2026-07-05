@@ -14,8 +14,8 @@ export default function GiftCards() {
             Share The Honey Hog
           </h2>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-cream/80 sm:text-lg">
-            Gift cards are available in any amount — perfect for the steak lover,
-            burger fanatic, or cheese curd connoisseur in your life.
+            Gift cards are available in any amount — perfect for the brisket lover,
+            rib fanatic, or whole hog BBQ connoisseur in your life.
           </p>
           <a
             href="#"
