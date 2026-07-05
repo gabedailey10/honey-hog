@@ -82,6 +82,6 @@ export const testimonials = [
 ];
 
 export const socialLinks = [
-  { label: "Facebook", href: "https://facebook.com" },
-  { label: "Instagram", href: "https://instagram.com" },
+  { label: "Facebook", href: "https://www.facebook.com/HoneyHogBBQ/" },
+  { label: "Instagram", href: "https://www.instagram.com/thefarmerbones" },
 ];
