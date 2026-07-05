@@ -25,10 +25,10 @@ export default function GiftCards() {
           </a>
         </div>
 
-        <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl shadow-lg">
+        <div className="relative aspect-square w-full overflow-hidden rounded-2xl shadow-lg">
           <Image
-            src="/images/honey-hog/food1.jpg"
-            alt="BBQ dish at The Honey Hog"
+            src="/images/honey-hog/pig1.jpg"
+            alt="Farm-raised hog at The Honey Hog farm"
             fill
             sizes="(min-width: 1024px) 50vw, 100vw"
             className="object-cover"

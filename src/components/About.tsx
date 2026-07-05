@@ -7,8 +7,8 @@ export default function About() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 lg:grid-cols-2">
         <div className="relative aspect-square w-full overflow-hidden rounded-2xl shadow-lg">
           <Image
-            src="/images/honey-hog/pig1.jpg"
-            alt="Farm-raised hog at The Honey Hog farm"
+            src="/images/honey-hog/food1.jpg"
+            alt="BBQ dish at The Honey Hog"
             fill
             sizes="(min-width: 1024px) 50vw, 100vw"
             className="object-cover"
